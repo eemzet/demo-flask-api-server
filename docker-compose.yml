@@ -1,0 +1,6 @@
+python_flask:
+  image: vitax/flaskapi:1.0.0
+  volumes:
+    - ".:/usr/src/myapp"
+  ports:
+    - "5000:80"
